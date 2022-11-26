@@ -1,11 +1,13 @@
 import "./NavBar.css";
 import CartWidget from "./CartWidget";
+import React, { useState } from "react";
 
 const NavBar = () => {
-  const listMenu = document.getElementById("listMenu");
-  console.log(listMenu);
+  const [menu, setMenu] = useState(true);
 
-  const showHideMenu = () => listMenu.classList.toggle("hide");
+  const showHideMenu = () => {
+    setMenu(!menu);
+  };
 
   return (
     <nav className="navbar-main">
@@ -13,7 +15,7 @@ const NavBar = () => {
         <div onClick={showHideMenu} className="menu-icon">
           <ion-icon name="menu-outline"></ion-icon>
         </div>
-        <ul className="navlist hide" id="listMenu">
+        <ul className={`navlist ${menu ? "hide" : ""}`}>
           <li className="navlist-item">home</li>
           <li className="navlist-item">menú</li>
           <li className="navlist-item">contactanos</li>
