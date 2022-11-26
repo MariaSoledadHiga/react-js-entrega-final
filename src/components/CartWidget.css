@@ -1,0 +1,16 @@
+.quantity {
+  background-color: var(--color-violet-jc);
+  position: absolute;
+  top: 45px;
+  right: 20px;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  line-height: 25px;
+  font-weight: bolder;
+  z-index: 10;
+}
+.cart-icon {
+  position: relative;
+}
