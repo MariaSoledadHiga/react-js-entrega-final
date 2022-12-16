@@ -4,3 +4,10 @@ h2 {
   width: fit-content;
   margin: auto;
 }
+.list-container {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: spapce-between;
+  padding: 0 0.5rem;
+}

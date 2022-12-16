@@ -1,13 +1,14 @@
 .header {
   width: 100%;
-  height: 150px;
+  height: 10rem;
   background-color: #ffffff;
   position: fixed;
+  z-index: 1;
 }
 .main {
-  padding-top: 170px;
-}
-ion-icon {
-  font-size: 30px;
-  z-index: 1;
+  padding-top: 20rem;
+  z-index: 0;
+  margin: 0 auto;
+  width: 103rem;
+  background-color: #ffffff;
 }
