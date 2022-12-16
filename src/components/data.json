@@ -9,7 +9,7 @@
   },
   {
     "id": "2",
-    "category": "chacolate",
+    "category": "chocolate",
     "name": "triple chocolate meltdown",
     "price": 100,
     "detail": "Nuestro exclusivo cupcake de chocolate infundido con ganache de chocolate, cubierto con crema de mantequilla de chocolate con leche y chispas.",
@@ -33,7 +33,7 @@
   },
   {
     "id": "5",
-    "category": "chacolate",
+    "category": "chocolate",
     "name": "better than summer",
     "price": 100,
     "detail": "Nuestro exclusivo cupcake de chocolate está infundido con rico caramelo casero, cubierto con crema batida fresca, trozos de toffee y rociado con delicadas tiras de caramelo y ganache. ¿Mejor que qué? Prácticamente todo lo que se te ocurra.",
@@ -41,7 +41,7 @@
   },
   {
     "id": "6",
-    "category": "chacolate",
+    "category": "chocolate",
     "name": "chocolate peanut butter attack",
     "price": 100,
     "detail": "Nuestro exclusivo cupcake de chocolate infundido con un relleno cremoso de mantequilla de maní y cubierto con crema de mantequilla PB batida y chispas.",
@@ -49,7 +49,7 @@
   },
   {
     "id": "7",
-    "category": "chacolate",
+    "category": "chocolate",
     "name": "obi pretzel kenobi",
     "price": 100,
     "detail": "Nuestro exclusivo cupcake de chocolate está infundido con rico caramelo salado, cubierto con crema de mantequilla de caramelo hecha en casa con leche de pretzel (¡sí, en serio!) y una pizca de sal marina. Está rayado con ganache y cubierto con trocitos de pretzel crujientes. ¡Ayúdame, Obi Pretzel Kenobi, este cupcake es mi única esperanza!",
@@ -89,7 +89,7 @@
   },
   {
     "id": "12",
-    "category": "chacolate",
+    "category": "chocolate",
     "name": "cherries in the snow",
     "price": 150,
     "detail": "Este cupcake de chocolate profundo y rico tiene un relleno de cereza horneado por dentro. Cubierto con crema batida fresca, una cereza Bada Bing y una capa de purpurina roja comestible. Un poco de tarta, un montón de tentador.",
@@ -97,7 +97,7 @@
   },
   {
     "id": "13",
-    "category": "frutal",
+    "category": "chocolate",
     "name": "randy's chocolate",
     "price": 150,
     "detail": "Nuestro exclusivo cupcake de chocolate está relleno con una tarta y un delicioso relleno de frambuesa, cubierto con crema de mantequilla de frambuesa y una capa de rica ganache de chocolate amargo. Adornado con una frambuesa dulce, este es un placer para los ojos y las papilas gustativas.",
@@ -129,7 +129,7 @@
   },
   {
     "id": "17",
-    "category": "chacolate",
+    "category": "chocolate",
     "name": "german chocolate",
     "price": 150,
     "detail": "Nuestro pastel de chocolate alemán ligero y tierno está cubierto con una salsa rica y pegajosa hecha de nueces picadas, coco tostado y caramelo mantecoso. Adornado con una llovizna de ganache de chocolate, este es un favorito tradicional que no querrá perderse.",
@@ -137,7 +137,7 @@
   },
   {
     "id": "18",
-    "category": "chacolate",
+    "category": "chocolate",
     "name": "mint to be",
     "price": 150,
     "detail": "Nuestro cupcake de chocolate exclusivo está infundido con ganache de chocolate amargo, cubierto con crema de mantequilla de menta y saltamontes y una galleta con chispas de menta y chocolate amargo horneada en casa. Rociado con ganache y espolvoreado con purpurina y magia. ¡Esta magdalena era perfecta para estar en tu vida!",
@@ -145,7 +145,7 @@
   },
   {
     "id": "19",
-    "category": "chacolate",
+    "category": "chocolate",
     "name": "nutellya it's delicious",
     "price": 150,
     "detail": "Nuestro exclusivo cupcake de chocolate se lleva al siguiente nivel con un relleno hecho de rica y cremosa Nutella®. Cubra esa bondad decadente con crema de mantequilla de Nutella® batida hecha desde cero y una guarnición de galleta oblea girada, y es una experiencia como nada que haya probado antes. 'Nutelya, es delicioso.",
