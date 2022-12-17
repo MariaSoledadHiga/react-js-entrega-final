@@ -20,22 +20,26 @@ const ItemDetail = ({ product }) => {
       >
         <Image
           objectFit="cover"
-          maxW={{ base: "100%", sm: "200px" }}
+          maxW={{ base: "100%", sm: "300px" }}
           src={product.imgUrl}
           alt={product.name}
         />
 
         <Stack>
           <CardBody>
-            <Heading size="md">{product.name}</Heading>
+            <Heading size="2xl" py="3" px="4" className="capitalize">
+              {product.name}
+            </Heading>
 
-            <Text py="2">{product.detail}</Text>
-            <Text color="black" fontSize="2xl">
+            <Text py="5" fontSize="2xl" px="4">
+              {product.detail}
+            </Text>
+            <Text color="black" fontSize="2xl" py="5" px="4">
               ${product.price} x unidad
             </Text>
           </CardBody>
 
-          <CardFooter>
+          <CardFooter p="10">
             <Button variant="solid" colorScheme="pink">
               Agregar al carrito
             </Button>

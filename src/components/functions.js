@@ -1,12 +1,12 @@
-import products from "./data.json";
+import data from "./data.json";
 
 export const getProducts = (categoryId) => {
   return new Promise((resolve) => {
     setTimeout(() => {
       resolve(
         categoryId
-          ? products.filter((product) => product.category === categoryId)
-          : products
+          ? data.filter((product) => product.category === categoryId)
+          : data
       );
     }, 500);
   });
@@ -15,7 +15,7 @@ export const getProducts = (categoryId) => {
 export const getProductById = (productId) => {
   return new Promise((resolve) => {
     setTimeout(() => {
-      resolve(products.find((product) => product.id === productId));
+      resolve(data.find((product) => product.id === productId));
     }, 500);
   });
 };

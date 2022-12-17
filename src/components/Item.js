@@ -17,14 +17,16 @@ const Item = ({ product }) => {
         <CardBody>
           <Image src={product.imgUrl} alt={product.name} borderRadius="lg" />
           <Stack mt="6" spacing="3">
-            <Heading size="md">{product.name}</Heading>
-            <Text color="black" fontSize="2xl">
+            <Heading size="lg" className="capitalize" px="2" height="20">
+              {product.name}
+            </Heading>
+            <Text color="black" fontSize="2xl" px="2">
               ${product.price} x unidad
             </Text>
           </Stack>
         </CardBody>
       </Link>
-      <CardFooter>
+      <CardFooter px="10">
         <Button variant="solid" colorScheme="pink">
           Agregar al carrito
         </Button>
