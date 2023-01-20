@@ -1,15 +1,6 @@
-import {
-  Card,
-  CardBody,
-  CardFooter,
-  Image,
-  Stack,
-  Heading,
-  Text,
-  Button,
-} from "@chakra-ui/react";
-
 import { Link } from "react-router-dom";
+import { Card, CardBody, Image, Stack, Heading, Text } from "@chakra-ui/react";
+
 const Item = ({ product }) => {
   return (
     <Card maxW="sm">
@@ -23,14 +14,12 @@ const Item = ({ product }) => {
             <Text color="black" fontSize="2xl" px="2">
               ${product.price} x unidad
             </Text>
+            <Text color="black" fontSize="2xl" px="2">
+              Stock: {product.stock || "Agotado"}
+            </Text>
           </Stack>
         </CardBody>
       </Link>
-      <CardFooter px="10">
-        <Button variant="solid" colorScheme="pink">
-          Agregar al carrito
-        </Button>
-      </CardFooter>
     </Card>
   );
 };
