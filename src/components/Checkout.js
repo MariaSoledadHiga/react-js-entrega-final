@@ -1,5 +1,5 @@
 import { useContext, useState } from "react";
-import CartContext from "../context/Car tContext";
+import CartContext from "../context/CartContext";
 import Form from "./Form";
 import Modal from "./Modal";
 
