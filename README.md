@@ -5,11 +5,9 @@
 Este proyecto es mi entrega final del curso de React Js de Coderhouse.\
 Consiste en un e-commerce de cupcakes, desarrollaco como una single-page application.
 
-<video width="" height="" controls="">
-  <source src="https://res.cloudinary.com/dystdxfua/video/upload/v1674278559/just%20cupcakes/just-cupcake_r6qkt2.mp4" type="video/mp4">
-</video>
+![Captura de la web-app](https://res.cloudinary.com/dystdxfua/image/upload/v1674270280/just%20cupcakes/just-cupcake-home_lm19vv.jpg)
 
-> Link al deploy: [https://entrega-final-react-js-coderhouse.netlify.app/](https://entrega-final-react-js-coderhouse.netlify.app/)
+> Link al deploy: [https://entrega-final-react-js-coderhouse.netlify.app/](https://entrega-final-react-js-coderhouse.netlify.app/) - [Link a demo](https://res.cloudinary.com/dystdxfua/video/upload/v1674278559/just%20cupcakes/just-cupcake_r6qkt2.mp4)
 
 Creado con [Create React App](https://github.com/facebook/create-react-app).
 
