@@ -1,12 +1,17 @@
 # [Just Cupcakes -web-app-project 👋](https://entrega-final-react-js-coderhouse.netlify.app/)
 
-[![This is an image](https://res.cloudinary.com/dystdxfua/image/upload/v1674270280/just%20cupcakes/just-cupcake-home_lm19vv.jpg)](https://entrega-final-react-js-coderhouse.netlify.app/)
-Creado con [Create React App](https://github.com/facebook/create-react-app).
-
 ## E-commerce construido con React Js y Firebase
 
-Este proyecto fue mi entrega final del curso de React Js de Coderhouse.\
+Este proyecto es mi entrega final del curso de React Js de Coderhouse.\
 Consiste en un e-commerce de cupcakes, desarrollaco como una single-page application.
+
+<video width="" height="" controls="">
+  <source src="https://res.cloudinary.com/dystdxfua/video/upload/v1674278559/just%20cupcakes/just-cupcake_r6qkt2.mp4" type="video/mp4">
+</video>
+
+> Link al deploy: [https://entrega-final-react-js-coderhouse.netlify.app/](https://entrega-final-react-js-coderhouse.netlify.app/)
+
+Creado con [Create React App](https://github.com/facebook/create-react-app).
 
 ### Funcionalidades desarrolladas pensando en la experiencia de usuario:
 
