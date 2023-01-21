@@ -55,9 +55,6 @@ const ItemDetail = ({ product }) => {
           </CardFooter>
         </Stack>
       </Card>
-      <Text fontSize="2xl" pt="5" px="4">
-        Volver
-      </Text>
     </>
   );
 };

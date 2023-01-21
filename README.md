@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# [Just Cupcakes -web-app-project 👋](https://entrega-final-react-js-coderhouse.netlify.app/)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![This is an image](https://res.cloudinary.com/dystdxfua/image/upload/v1674270280/just%20cupcakes/just-cupcake-home_lm19vv.jpg)](https://entrega-final-react-js-coderhouse.netlify.app/)
+Creado con [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## E-commerce construido con React Js y Firebase
 
-In the project directory, you can run:
+Este proyecto fue mi entrega final del curso de React Js de Coderhouse.\
+Consiste en un e-commerce de cupcakes, desarrollaco como una single-page application.
 
-### `npm start`
+### Funcionalidades desarrolladas pensando en la experiencia de usuario:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Navegabilidad, simula una multi-page application.
+- En los procesos que pueden demorar un poco se muestra un loader.
+- En la página inicial se visualizan 4 productos aleatorios.
+- La barra de navegación es visible en todo momento.
+- El logo navega a la página de inicio.
+- Los enlaces de las categorías cambian su styling cuando el usuario se encuentra en esa categoría.
+- En el cart widget se muestran la cantidad de productos que se van cargando en el proceso de compra y además navega a la página del cart.
+- Las cards de los productos que se encuentran en las rutas "/" y "/category/..." navegan al detalle de cada producto.
+- Las cards de los detalles tienen un selector de unidades y un botón para agregar al carrito. Una vez presionado el botón aparece otro para abrir el carrito.
+- Si en el mismo proceso de compra el usuario vuelve a abrir el detalle de un producto existente en el carrito el selector de unidades muestra la cantidad que hay en el carrito y el botón cambia la leyenda "Agregar al carrito" por "Cambiar cantidad".
+- Los productos cargados en el carrito persisten en el local storage.
+- En la vista del carrito se muestra el detalle de productos cargados, nombre, cantidad, precio unitario, subtotal y total. También hay una serie de botones que permiten, agregar y disminuir la cantidad, eliminar un producto en particular, vaciar el carrito completo.
+- En la misma página hay un formulario que el cliente debe completar antes de poder terminar el proceso de compra.
+- El resultado del proceso de compra se visualiza en un modal. Si es exitoso, devuelve el id de la orden de compra. Si al enviar la compra algún producto quedó sin stock, se devuelve un mensaje indicando cual es el producto y la cantidad que queda en stock.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Funcionalidades desarrolladas pensando en la seguridad del proceso:
 
-### `npm test`
+- Los productos están cargados en una base de datos de firestore.
+- Cada vez que carga una página en la que se muestran productos se hace una llamada a firestore. De ese modo la app puede mostrar el stock disponible en ese momento.
+- Los botones para seleccionar la cantidad de productos que están en los detalles, están limitados por el stock.
+- En el carrito no se muestran productos duplicados. Si el mismo ya se agregó, sólo es posible editarlo.
+- El formulario para completar los datos tiene validaciones y en caso de contener algún error le muestra un mensaje al cliente.
+- El proceso de finalización de la compra se realiza con un llamado a firestore en el que se verifica el stock de todos los productos antes de cargar la orden. También baja el stock en firestore si la orden se carga con éxito.
+- La configuración de la conexión con firebase y firestore, y toda la lógica que requiere de esos servicios está en el mismo archivo.
+- Las credenciales para la conexión con firebase y firestore están cargadas en variables de entorno.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Bibliotecas complementarias:
 
-### `npm run build`
+- Chackra UI - principalmente para las cards, tabla y loader.
+- React-icons - para los íconos.
+- React-router-dom - para el ruteo de la aplicación.
+- React-hook-form y Yup - para las validaciones y manejo general del formulario.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+> [acá todas las dependencias utilizadas](https://github.com/MariaSoledadHiga/react-js-entrega-final/blob/main/package.json)

@@ -8,7 +8,13 @@ import { Text, CircularProgress } from "@chakra-ui/react";
 
 const schema = yup.object({
   name: yup.string().required("obligatorio"),
-  phone: yup.string().required("obligatorio"),
+  phone: yup
+    .string()
+    .required("obligatorio")
+    .matches(
+      /^(?:(?:00)?549?)?0?(?:11|[2368]\d)(?:(?=\d{0,2}15)\d{2})??\d{8}$/,
+      "solo números, sin 0, ej: 1151234567"
+    ),
   email: yup.string().required("obligatorio").email("formato incorrecto"),
   confirmEmail: yup
     .string()
