@@ -9,7 +9,7 @@ const CartItem = ({ product }) => {
 
   return (
     <Tr>
-      <Td className="table-td-index">
+      <Td textAlign={"center"} className="table-td-index">
         {cart.findIndex((item) => item.id === product.id) + 1}
       </Td>
       <Td className="table-td-name">{product.name}</Td>

@@ -24,22 +24,42 @@ const CartDetail = () => {
         <Table variant="simple">
           <Thead className="table-head">
             <Tr>
-              <Th fontSize={"1.5rem"} color={"black"}>
+              <Th fontSize={"1.5rem"} color={"black"} className="th-index">
                 orden
               </Th>
-              <Th fontSize={"1.5rem"} color={"black"}>
+              <Th fontSize={"1.5rem"} color={"black"} className="th-name">
                 producto
               </Th>
-              <Th fontSize={"1.5rem"} color={"black"}>
+              <Th
+                fontSize={"1.5rem"}
+                color={"black"}
+                textAlign={"center"}
+                className="th-qty"
+              >
                 cantidad
               </Th>
-              <Th fontSize={"1.5rem"} color={"black"}>
+              <Th
+                fontSize={"1.5rem"}
+                color={"black"}
+                textAlign={"right"}
+                className="th-price"
+              >
                 precio
               </Th>
-              <Th fontSize={"1.5rem"} color={"black"}>
+              <Th
+                fontSize={"1.5rem"}
+                color={"black"}
+                textAlign={"right"}
+                className="th-subtotal"
+              >
                 sub-total
               </Th>
-              <Th fontSize={"1.5rem"} color={"black"} textAlign={"center"}>
+              <Th
+                fontSize={"1.5rem"}
+                color={"black"}
+                textAlign={"center"}
+                className="th-edit"
+              >
                 editar
               </Th>
             </Tr>

@@ -1,5 +1,5 @@
 .cart-container {
-  padding-top: 5rem;
+  width: 95%;
   max-width: 1110px;
   margin: auto;
 }
@@ -18,7 +18,7 @@
   background-color: var(--color-pink-jc);
 }
 .clear {
-  margin-top: 5rem;
+  margin-top: 1rem;
   background-color: hsl(0, 91%, 17%);
   margin-bottom: 5rem;
 }
@@ -32,6 +32,26 @@
 .delete {
   color: hsl(0, 91%, 17%);
 }
+
+.th-index {
+  width: 5rem;
+}
+.th-name {
+  width: 30rem;
+}
+.th-qty {
+  width: 10rem;
+}
+.th-price {
+  width: 7rem;
+}
+.th-subtotal {
+  width: 7rem;
+}
+.th-edit {
+  width: 14rem;
+}
+
 .table-td-index {
   width: 5rem;
   font-size: 1.5rem;
@@ -53,6 +73,7 @@
   font-size: 1.5rem;
 }
 .table-td-edit {
+  margin: auto;
   width: 14rem;
   font-size: 1.5rem;
   display: flex;

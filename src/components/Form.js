@@ -55,7 +55,7 @@ const Form = ({ setModal }) => {
         </div>
       )}
       <Text className="category-title" py="10" mb="5">
-        Completá tu información para finalizar la compra
+        Completá tu información para finalizar
       </Text>
       <form onSubmit={handleSubmit(confirmOrder)}>
         <div className="inputs-conteiner">

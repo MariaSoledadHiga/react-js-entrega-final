@@ -2,14 +2,7 @@ import { useContext, useEffect } from "react";
 import { Link } from "react-router-dom";
 import CartContext from "../context/CartContext";
 import ItemQuantitySelector from "./ItemQuantitySelector";
-import {
-  CardBody,
-  CardFooter,
-  Image,
-  Stack,
-  Heading,
-  Text,
-} from "@chakra-ui/react";
+import { Image, Heading, Text } from "@chakra-ui/react";
 
 const ItemDetail = ({ product }) => {
   const { checkoutBtn, setCheckoutBtn } = useContext(CartContext);
