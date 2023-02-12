@@ -45,7 +45,7 @@ const ItemListContainer = () => {
         ) : products.length > 0 ? (
           <ItemList products={products} />
         ) : (
-          <Text fontSize="2xl">
+          <Text className="not-found-text">
             Productos no encontrados o sabor inexistente
           </Text>
         )}
