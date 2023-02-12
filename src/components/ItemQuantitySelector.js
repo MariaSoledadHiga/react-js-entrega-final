@@ -20,7 +20,7 @@ const ItemCount = ({ product }) => {
   }, [cart]); // eslint-disable-line
 
   return (
-    <>
+    <div className="qty-selector btn-card">
       <div className="item-count">
         <div className="qty-bar">
           <FaMinusCircle className="minus" onClick={minus} />
@@ -33,7 +33,7 @@ const ItemCount = ({ product }) => {
           ? `Cambiar cantidad`
           : `Agregar al carrito`}
       </button>
-    </>
+    </div>
   );
 };
 

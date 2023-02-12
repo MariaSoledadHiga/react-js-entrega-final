@@ -30,9 +30,7 @@ const ItemDetailContainer = () => {
         ) : product ? (
           <ItemDetail key={product.id} product={product} />
         ) : (
-          <Text className="category-title" py="2" mb="5">
-            El producto no existe
-          </Text>
+          <Text className="not-found-text">El producto no existe</Text>
         )}
       </div>
     </>
