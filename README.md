@@ -3,7 +3,7 @@
 ## E-commerce construido con React Js y Firebase
 
 Este proyecto es mi entrega final del curso de React Js de Coderhouse.\
-Consiste en un e-commerce de cupcakes, desarrollaco como una single-page application.
+Consiste en un e-commerce de cupcakes, desarrollado como una single-page application.
 
 ![Captura de la web-app](https://res.cloudinary.com/dystdxfua/image/upload/v1674270280/just%20cupcakes/just-cupcake-home_lm19vv.jpg)
 
@@ -14,6 +14,7 @@ Creado con [Create React App](https://github.com/facebook/create-react-app).
 ### Funcionalidades desarrolladas pensando en la experiencia de usuario:
 
 - Navegabilidad, simula una multi-page application.
+- Diseño responsivo Mobile First.
 - En los procesos que pueden demorar un poco se muestra un loader.
 - En la página inicial se visualizan 4 productos aleatorios.
 - La barra de navegación es visible en todo momento.
