@@ -99,4 +99,7 @@
   .navlist-item {
     padding: 0;
   }
+  .navlist-list {
+    overflow: visible;
+  }
 }
