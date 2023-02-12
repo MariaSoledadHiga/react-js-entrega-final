@@ -2,21 +2,20 @@
   background-image: url("https://res.cloudinary.com/dystdxfua/image/upload/v1673024193/just%20cupcakes/home-bg_fz7dyd.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  min-width: 1vw;
+  background-position: center center;
+  width: 100%;
   height: 37rem;
-  margin-top: -6rem;
-  margin-bottom: 5rem;
+  margin: -6rem auto 5rem auto;
 }
 .title {
-  width: 70rem;
-  height: 10rem;
-  font-size: 6rem;
+  max-width: 90vw;
+  font-size: 5.5rem;
+  line-height: 6.2rem;
   font-weight: 700;
   font-family: "Dancing Script", cursive;
   color: var(--color-violet-jc);
-  text-align: left;
   margin: auto;
-  padding-top: 11rem;
+  padding: 11rem 1rem 0 1rem;
   text-shadow: var(--color-pink-jc) 0.2rem -0.15rem 0.2rem;
 }
 .category-title {
@@ -29,7 +28,7 @@
   font-family: "Dancing Script", cursive;
 }
 .list-container {
-  max-width: 110rem;
+  max-width: 1100px;
   margin: 0 auto;
 }
 .item-list {
@@ -78,4 +77,13 @@
   width: 17rem;
   cursor: pointer;
   margin-top: -1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    width: 600px;
+    padding-top: 12rem;
+    font-size: 6rem;
+    line-height: 7.5rem;
+  }
 }
